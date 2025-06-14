@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+@import "tailwindcss-primeui";
+@import "primeicons/primeicons.css";
+
+html {
+  scroll-behavior: smooth
+}
+
+body {
+  @apply font-[rubik] bg-gray-200;
+}
+
+p {
+  @apply text-lg leading-8;
+}
+
+.p-dark body {
+  @apply bg-gray-900 text-white;
+}
+
+.p-button:hover {
+  @apply text-indigo-500;
+}
