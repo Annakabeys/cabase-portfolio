@@ -1,7 +1,7 @@
 <template>
   <section 
     id="home"
-    class="min-h-screen flex flex-col items-center justify-center text-center gap-8 bg-indigo-100 px-8 lg:px-16 py-20"
+    class="min-h-screen flex flex-col items-center justify-center text-center gap-8 bg-indigo-100 px-8 lg:px-16"
   >
     <h1 class="uppercase text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
       Hey, I'm Annaliza Cabase

@@ -1,7 +1,7 @@
 <template>
   <section 
     id="about" 
-    class="min-h-screen flex flex-col justify-center gap-16 bg-white px-8 lg:px-16 py-20"
+    class="min-h-screen flex flex-col justify-center gap-16 bg-white px-8 lg:px-16 py-40"
   >
     <h1 class="uppercase text-3xl sm:text-4xl md:text-5xl font-bold text-center">
       About Me

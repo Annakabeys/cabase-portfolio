@@ -1,7 +1,7 @@
 <template>
   <section 
     id="contact"
-    class="min-h-screen px-8 sm:px-8 lg:px-16 py-20 flex flex-col items-center justify-center gap-12 bg-indigo-100"
+    class="min-h-screen px-8 sm:px-8 lg:px-16 py-40 flex flex-col items-center justify-center gap-12 bg-white"
   >
     <h1 class="uppercase text-3xl sm:text-4xl md:text-5xl font-bold">
       Contact

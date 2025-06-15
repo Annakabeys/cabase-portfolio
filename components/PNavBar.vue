@@ -1,22 +1,27 @@
 <template>
   <section class="shadow-md bg-white sticky top-0 z-50 w-full">
     <div 
-      class="flex items-center justify-between py-4 px-2 lg:px-8"
+      class="flex items-center justify-between p-4"
       :class="menuBar ? 'border-b border-gray-300' : ''"  
     >
       <div class="flex items-center gap-4">
-        <PButton
-          label="Annaliza Cabase"
-          class="uppercase font-bold"
+        <NuxtLink
+          href="#home"
+          class="hover:text-indigo-500 uppercase font-bold"
         >
-          <template #default>
-            <PrimeAvatar 
-              image="/profile.png" 
-              size="large" 
-              shape="circle" 
-            />  
-          </template>
-        </PButton>
+          <PButton
+            label="Annaliza Cabase"
+            class="uppercase font-bold"
+          >
+            <template #default>
+              <PrimeAvatar 
+                image="/profile.png" 
+                size="large" 
+                shape="circle" 
+              />  
+            </template>
+          </PButton>
+        </NuxtLink>
       </div>
 
       <!-- Desktop Nav -->
