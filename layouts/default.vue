@@ -9,6 +9,13 @@
 
   <PFooter />
   <PrimeScrollTop />
+  <PrimeToast 
+    :pt="{
+      root: 'flex items-center gap-4 w-full sm:max-w-md px-4 py-3',
+      summary: 'text-base',
+      detail: 'text-sm'
+    }"
+  />
 </template>
 
 <script>

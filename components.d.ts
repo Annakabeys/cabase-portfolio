@@ -15,8 +15,10 @@ declare module 'vue' {
     PrimeForm: typeof import('@primevue/forms/form')['default']
     PrimeFormField: typeof import('@primevue/forms/formfield')['default']
     PrimeInputText: typeof import('primevue/inputtext')['default']
+    PrimeMessage: typeof import('primevue/message')['default']
     PrimeScrollTop: typeof import('primevue/scrolltop')['default']
     PrimeTextarea: typeof import('primevue/textarea')['default']
+    PrimeToast: typeof import('primevue/toast')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
