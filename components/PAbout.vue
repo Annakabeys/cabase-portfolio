@@ -1,17 +1,17 @@
 <template>
   <section 
     id="about" 
-    class="min-h-screen px-8 py-40 flex flex-col justify-center gap-16"
+    class="min-h-screen flex flex-col justify-center gap-16 bg-white px-8 lg:px-16 py-20"
   >
-    <h1 class="uppercase text-5xl font-bold text-center">
+    <h1 class="uppercase text-3xl sm:text-4xl md:text-5xl font-bold text-center">
       About Me
     </h1>
 
-    <p class="text-center">
+    <p class="text-center text-base sm:text-lg">
       Here you’ll find more about who I am, what I do, and the skills 
       I’ve built in software engineering and modern web development.
     </p>
-
+    
     <article class="flex flex-col justify-start gap-4">
       <p class="font-bold text-2xl!">Get to know me!</p>
       
@@ -61,7 +61,7 @@
         :text="false"
         severity=""
         size="large"
-        class="w-60 uppercase font-bold mt-4"
+        class="w-48 sm:w-60 uppercase font-bold mt-4"
       />
     </article>
 

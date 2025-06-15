@@ -47,8 +47,6 @@
 </template>
 
 <script setup lang="ts">
-import { useState } from 'nuxt/app'
-
 const menuBar = useState('menuBar', () => false)
 const toggleMenu = () => {
   menuBar.value = !menuBar.value

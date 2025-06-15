@@ -1,13 +1,13 @@
 <template>
   <section 
     id="home"
-    class="min-h-screen flex flex-col items-center justify-center text-center gap-8 bg-indigo-100"
+    class="min-h-screen flex flex-col items-center justify-center text-center gap-8 bg-indigo-100 px-8 lg:px-16 py-20"
   >
-    <h1 class="uppercase text-5xl font-bold">
+    <h1 class="uppercase text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
       Hey, I'm Annaliza Cabase
     </h1>
 
-    <div>
+    <div class="max-w-xl space-y-2 text-base sm:text-lg">
       <p>
         Full-Stack Software Engineer with experience in building scalable web apps 
         using Vue, Nuxt, TypeScript, and Scala. 
@@ -20,7 +20,7 @@
       :text="false"
       severity=""
       size="large"
-      class="w-60 uppercase font-bold"
+      class="w-48 sm:w-60 uppercase font-bold mt-4"
     />
   </section>
 </template>

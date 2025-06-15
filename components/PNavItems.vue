@@ -11,7 +11,7 @@
         v-for="(i, index) in items"
         :key="index"
         :class="[
-          menuBar ? 'border-b border-gray-300 w-full py-6 px-2 lg:px-8' : '',
+          menuBar ? 'border-b border-gray-300 w-full py-6 px-6 lg:px-8' : '',
           'lg:border-none lg:w-auto lg:py-0'
         ]"
       >
@@ -27,8 +27,6 @@
 </template>
 
 <script setup lang="ts">
-import { useState } from 'nuxt/app'
-
 const menuBar = useState('menuBar')
 const items = [
   { name: 'home' },
