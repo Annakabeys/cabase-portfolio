@@ -16,7 +16,6 @@ export default defineNuxtConfig({
     baseurl: '/cabase-portfolio/'
   },
   ssr: false,
-  target: 'static',
   primevue: {
     importTheme: { from: '@/themes/mytheme.js' },
     components: {
