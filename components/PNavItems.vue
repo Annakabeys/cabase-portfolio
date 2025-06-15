@@ -31,6 +31,7 @@ const menuBar = useState('menuBar')
 const items = [
   { name: 'home' },
   { name: 'about' },
+  { name: 'resume' },
   { name: 'projects' },
   { name: 'contact' }
 ]

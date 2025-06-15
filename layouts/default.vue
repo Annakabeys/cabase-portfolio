@@ -3,11 +3,11 @@
     <PNavBar />
     <PHome />
     <PAbout />
+    <PResume />
     <PContact />
   </main>
 
   <PFooter />
-
   <PrimeScrollTop />
 </template>
 
