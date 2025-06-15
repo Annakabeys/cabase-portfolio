@@ -17,7 +17,6 @@ const menuBar = useState('menuBar')
 
 watch(route, (newValue) => {
   if (newValue) {
-    console.log(newValue)
     menuBar.value = false
   }
 }, { deep: true })

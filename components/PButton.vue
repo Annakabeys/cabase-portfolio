@@ -29,7 +29,6 @@ withDefaults(defineProps<Props>(), {
 const emit = defineEmits(['onClick'])
 
 const onClick = () => {
-  console.log('clicked')
   emit('onClick')
 }
 </script>
