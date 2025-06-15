@@ -9,11 +9,12 @@
 
   <PFooter />
   <PrimeScrollTop />
-  <PrimeToast 
+  <PrimeToast
     :pt="{
-      root: 'flex items-center gap-4 w-full sm:max-w-md px-4 py-3',
-      summary: 'text-base',
-      detail: 'text-sm'
+      root: 'flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4 w-[90vw] max-w-xs sm:max-w-sm px-3 py-2 rounded-md shadow-md',
+      summary: 'text-sm font-medium break-words',
+      detail: 'text-xs text-gray-600 break-words',
+      icon: 'text-lg shrink-0'
     }"
   />
 </template>
